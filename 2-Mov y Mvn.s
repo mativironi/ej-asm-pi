@@ -18,7 +18,7 @@ _start:
 	
 	mov	r4,#0										
 	mov	r5,#0x01
-	mov	r6,#02	   @Transferencia de Inmediato Octal			
+	mov	r6,#02	     @Transferencia de Inmediato Octal			
 	mov	r7,r8        @Transferencia de Registro			/*-----MOV-----*/
 	mov	r8,#'b'      @Trasnferencia de b minuscula
 	mov	r9,r6,lsl #1 @Transferencia de Registro con desplazamiento		
@@ -31,8 +31,8 @@ fin: b fin
 
 @	1) La unica seccion que obligatoriamente debe existir es la seccion de codigo
 @	2) MVN realiza el complemento A1 del operando fuente
-@	3) Todas las instrucciones ocupan 32 bits, por lo tanto es técnicamente imposible que 
-@	   podamos cargar en un registro cualquier constante de 32 bits con la instrucción mov. 
+@	3) Todas las instrucciones ocupan 32 bits, por lo tanto es tÃ©cnicamente imposible que 
+@	   podamos cargar en un registro cualquier constante de 32 bits con la instrucciÃ³n mov. 
 
 
 @ 			by Matias Vironi
