@@ -16,17 +16,17 @@ _start:
 	mov		r0,#1
 	mov		r1,#2
 		
-	add		r2,r1,r0         ;R2=R1+R0 (Adicion con registros)
-	add		r3,r1,r0,lsl r0  ;R3=R1+R0*2 (Adicion con el operando 2 desplazado a la izquierda)
-	add		r4,r1,#3		  ;R4=R1+3 (Adicion con inmediato)
-	add		r5,r1,r0,lsl #2  ;R5=R1+R0*4
+	add		r2,r1,r0         	@R2=R1+R0 (Adicion con registros)
+	add		r3,r1,r0,lsl r0  	@R3=R1+R0*2 (Adicion con el operando 2 desplazado a la izquierda)
+	add		r4,r1,#3		@R4=R1+3 (Adicion con inmediato)
+	add		r5,r1,r0,lsl #2  	@R5=R1+R0*4
 		
-	sub		r7,r1,#2         ;R7=R1-2
-	sub		r8,r0,r1         ;R8=R0-R1
-	sub		r9,r1,r2,lsr r0  ;R9=R1-R2/2 (Sustraccion con el operando 2 desplazado a la derecha)
+	sub		r7,r1,#2         	@R7=R1-2
+	sub		r8,r0,r1         	@R8=R0-R1
+	sub		r9,r1,r2,lsr r0  	@R9=R1-R2/2 (Sustraccion con el operando 2 desplazado a la derecha)
 		
-	rsb		r10,r0,r1        ;R10=R1-R0 (Sustraccion inversa con registro)
-	rsb		r11,r5,#2        ;R11=2-R5 (Sustraccion inversa con inmediato)		
+	rsb		r10,r0,r1        	@R10=R1-R0 (Sustraccion inversa con registro)
+	rsb		r11,r5,#2        	@R11=2-R5 (Sustraccion inversa con inmediato)		
 
 fin: b fin
 
