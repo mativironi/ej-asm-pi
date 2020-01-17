@@ -23,8 +23,8 @@ punt_var2: .word var2
 @----------------------------Observaciones-------------------------------------------
 
 @Para comentar nuestro codigo podemos utilizar:
-										@Comentario de linea
-										/*Comentario de Bloque*/
+						@Comentario de linea
+						/*Comentario de Bloque*/
 
 @En la Seccion de Datos se almacenan en memoria las variables que vamos a utilizar
 @En la Seccion de Codigo se encuentra nuestro codigo o datos no modificables
