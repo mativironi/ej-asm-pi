@@ -35,9 +35,7 @@ etiqueta: .word 99
 @----------------------------Observaciones-------------------------------------------
 
 @	1) Rt: es el registro para almacenar
-@	   Rn: es el registro en el que se basa la dirección de memoria.
-
-@	
+@	   Rn: es el registro en el que se basa la direcciÃ³n de memoria.
 
 @ 			by Matias Vironi
 @			Github: https://github.com/mativironi/ej-asm-pi
