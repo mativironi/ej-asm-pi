@@ -33,10 +33,13 @@ number: .word 5			@Se almacena el valor 5
 
 @------------------------------------------------Observaciones-------------------------------------------
 
-@	1) Rt: es el registro para cargar
+@	1) ARM utiliza un modelo de Almacenamiento/Carga para el acceso a la memoria, lo que significa que solo las 
+@ 	   instrucciones de carga/almacenamiento (LDR y STR) pueden acceder a la memoria.
+
+@	2) Rt: es el registro para cargar
 @	   Rn: es el registro en el que se basa la dirección de memoria.
 
-@	2) Para cargar datos almacenados en memoria en la seccion de datos se utiliza =(Direccion) y [](Contenido)
+@	3) Para cargar datos almacenados en memoria en la seccion de datos se utiliza =(Direccion) y [](Contenido)
 @	   Para cargar datos almacenados en la seccion de codigo se utiliza =(Direccion) y variable(Contenido)
 
 @ 			by Matias Vironi
