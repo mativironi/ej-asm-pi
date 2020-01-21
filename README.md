@@ -11,4 +11,6 @@ En este repositorio se encuentra ejemplos básicos para aprender ARM Assembly La
 
 4-LDR.s
 
+5-STR.s
+
 6-Mull,Umull,Smull.s
