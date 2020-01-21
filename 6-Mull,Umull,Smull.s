@@ -1,13 +1,13 @@
 @---------------------------Intrucciones de multiplicacion MUL,UMULL,SMULL------------------------------
 
-@	MUL:	  Multiplicacion con operandos de 32 bits con signo o sin signo, dando los 32 bits menos significativos del resultado.
+@	MUL:   Multiplicacion con operandos de 32 bits con signo o sin signo, dando los 32 bits menos significativos del resultado.
 @	UMULL: Unsigned Long Multiply, con operandos de 32 bits y resultado de 64 bits.
 @	SMULL: Signed Long Multiply, con operandos de 32 bits y resultado de 64 bits.
 		
 @ Sintaxis:
-@	MUL{S}{cond} {Rd}, op1, op2
-@	UMULL{S}{cond} RdLo, RdHi, op1, op2
-@	SMULL{S}{cond} RdLo, RdHi, op1, op2
+@	   MUL{S}{cond} {Rd}, op1, op2
+@	   UMULL{S}{cond} RdLo, RdHi, op1, op2
+@	   SMULL{S}{cond} RdLo, RdHi, op1, op2
 
 .data					/* Seccion de Datos*/
 
