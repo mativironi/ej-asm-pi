@@ -16,3 +16,5 @@ En este repositorio se encuentra ejemplos básicos para aprender ARM Assembly La
 6-Mull,Umull,Smull.s
 
 7-And,Or,Eor,Bic.s
+
+8-Cmp,Cmn,Tst,Teq.s
