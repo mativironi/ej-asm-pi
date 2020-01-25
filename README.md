@@ -19,4 +19,4 @@ En este repositorio se encuentra ejemplos básicos para aprender ARM Assembly La
 
 8-Cmp,Cmn,Tst,Teq.s
 
-9-Directivas de definicion de cadenas,datos y que llenan espacios
+9-Lsl,Lsr,Asr,Ror.s
