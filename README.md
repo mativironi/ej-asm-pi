@@ -1,7 +1,7 @@
 # ej-asm-pi
-En este repositorio se encuentra ejemplos básicos para aprender ARM Assembly Language 
+En este repositorio se encuentra ejemplos **básicos** para aprender *ARM Assembly Language* 
 
-0-Introduccion.s
+0-[Introduccion](https://github.com/mativironi/ej-asm-pi/blob/master/0-Introduccion.s)
 
 1-Aspectos de un programa en Assembly.s
 
