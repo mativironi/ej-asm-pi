@@ -33,5 +33,5 @@ En este repositorio se encuentran ejemplos **básicos** para aprender *ARM Assem
 
 15-[Estructura de Control **IF-ELSE**](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/5-Estructura%20de%20Control%20IF-ELSE.s)
 
-16-[Estructura de Control SWITCH-CASE](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/6-Estructura%20de%20Control%20SWITCH-CASE.s)
+16-[Estructura de Control **SWITCH-CASE**](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/6-Estructura%20de%20Control%20SWITCH-CASE.s)
 
