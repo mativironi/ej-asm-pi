@@ -44,4 +44,4 @@ fin: b fin
 @	3) El Ejemplo 2 necesita menos ciclos de reloj que el Ejemplo1.
 
 @ 			by Matias Vironi
-@			Github: https://github.com/mativironi/ej-asm-pii
+@			Github: https://github.com/mativironi/ej-asm-pi
