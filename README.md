@@ -21,7 +21,7 @@ En este repositorio se encuentran ejemplos **básicos** para aprender *ARM Assem
 
 9-[Lsl,Lsr,Asr,Ror](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo1/9-Lsl%2CLsr%2CAsr%2CRor.s)
 
-10-[Directivas de definicion de cadenas,datos y que llenan espacios](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/0-Directivas%20de%20definicion%20de%20cadenas%2Cdatos%20y%20que%20llenan%20espacios)
+10-[Directivas de definicion de cadenas,datos y que llenan espacios](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/0-Directivas%20de%20definicion%20de%20cadenas%2Cdatos%20y%20que%20llenan%20espacios.s)
 
 11-[B,BL,BX,BLX](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/1-B%2CBL%2CBX%2CBLX.s)
 
