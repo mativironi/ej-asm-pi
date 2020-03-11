@@ -1,11 +1,11 @@
 @---------------------------Instrucciones de Desplazamiento y Rotacion LSL-LSR-ASR-ROR---------------------------
 
-@ Las instrucciones de desplazamiento pueden ser lógicas o aritméticas.
+@ Las instrucciones de desplazamiento pueden ser logicas o aritmeticas.
 @ 	LSL: Logical Shift Left
 @	LSR: Logical Shift Right
 @	ASR: Arithmetic Shift Right.
 
-@ Las instrucciones de rotación también desplazan, pero el bit que sale del valor se realimenta.
+@ Las instrucciones de rotacion tambien desplazan, pero el bit que sale del valor se realimenta.
 @	ROR: Rotate Right
 @	RRX: Rotate Right with Extend
 

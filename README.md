@@ -35,3 +35,5 @@ En este repositorio se encuentran ejemplos **básicos** para aprender *ARM Assem
 
 16-[Estructura de Control **SWITCH-CASE**](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/6-Estructura%20de%20Control%20SWITCH-CASE.s)
 
+17-[Estructuras de Control **WHILE**](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/7-Estructura%20de%20Control%20WHILE.s)
+
