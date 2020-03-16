@@ -39,3 +39,6 @@ En este repositorio se encuentran ejemplos **básicos** para aprender *ARM Assem
 
 18-[Estructura de Control **FOR**](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/8-Estructura%20de%20Control%20FOR.s)
 
+19-[Directivas de Control,Operando y Macro](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/9-Directivas%20de%20Control%2COperando%20y%20Macro.s)
+
+20-[Funciones o Subrutinas](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/0-Funciones%20o%20Subrutinas.s)
