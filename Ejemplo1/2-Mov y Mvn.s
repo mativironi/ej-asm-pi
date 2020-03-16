@@ -23,7 +23,7 @@ _start:
 	mov	r8,#'b'      @Trasnferencia de b minuscula
 	mov	r9,r6,lsl #1 @Transferencia de Registro con desplazamiento		
 
-fin: b fin
+fin: b fin			 @Bucle Infinito
 
 
 

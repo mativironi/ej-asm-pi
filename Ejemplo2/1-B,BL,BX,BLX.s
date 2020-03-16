@@ -1,4 +1,4 @@
-@------------------------------Instrucciones de Bifurcacion y Control B-BL-BX-BLX-------------------------------
+@------------------------------Instrucciones de Bifurcacion y Control B-BL-BX-BLX---------------------------
 
 @		B: 	Branch --> Salto simple a una función
 @		BL:	Branch with Link --> Guarda (PC + 4) en LR y salta a la funcion
@@ -10,11 +10,9 @@
 @		 BL{cond} label
 @		 BX{cond} Rm
 @		 BLX{cond} Rm
+                	
 
-                     
-			
-
-@-----------------------------------------------Observaciones--------------------------------------------------
+@-----------------------------------------------Observaciones-----------------------------------------------
 
 @	1) label o etiqueta: es un símbolo que representa la dirección de una instrucción o datos literales.
 @	2) cond: Es un código de condición opcional
@@ -24,7 +22,7 @@
 @	6) En los saltos condicionales añadimos dos letras a la (b/bx), mediante las cuales 
 @	   condicionamos si se salta o no dependiendo del estado de los flags.
 @	7) Las instrucciones BL y BLX copian la dirección de la siguiente instrucción en 
-	   LR (R14, el registro de enlace).
+@	   LR (R14, el registro de enlace).
 
 @ 			by Matias Vironi
 @			Github: https://github.com/mativironi/ej-asm-pi
