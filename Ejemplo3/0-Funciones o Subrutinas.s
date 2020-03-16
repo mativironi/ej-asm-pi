@@ -31,24 +31,24 @@
 	MOV R1,#3
 	MOV R2,#5
 	MOV R3,#6
-	BL DIFFOFSUMS @ Guarda en el LR la pocicion de memoria siguiente y el PC salta a la funcion.
+	BL DIFFOFSUMS 		@ Guarda en el LR la pocicion de memoria siguiente y el PC salta a la funcion.
 fin: b fin
 @ Fin de programa principal
 
 @ Inicio de Subrutina
 DIFFOFSUMS:
-	PUSH {R4}  	  @ Decrementamos en 4 el SP y Guarda el estado anterior de R4 en el Stack (R4=0)
-	ADD R1,R0,R1  @ R1 = R0+R1
-	ADD R3,R2,R3  @ R3 = R2+R3
-	SUB R4,R1,R3  @ R4 = R1-R3 -> Modifica el registro R4
-	MOV R0,R4  	  @ R0 = R4 -> El resultado de una función se devuelve a través del registro R0
-	POP {R4}      @ Carga en R0 el contenido de SP, luego incrementamos en 4 el registro SP
-	MOV PC,LR     @ Transfiere la direccion de LR a PC -> Me permite salir de la funcion
+	PUSH {R4}  	  	@ Decrementamos en 4 el SP y Guarda el estado anterior de R4 en el Stack (R4=0)
+	ADD R1,R0,R1  		@ R1 = R0+R1
+	ADD R3,R2,R3  		@ R3 = R2+R3
+	SUB R4,R1,R3  		@ R4 = R1-R3 -> Modifica el registro R4
+	MOV R0,R4  	  	@ R0 = R4 -> El resultado de una función se devuelve a través del registro R0
+	POP {R4}      		@ Carga en R0 el contenido de SP, luego incrementamos en 4 el registro SP
+	MOV PC,LR    		@ Transfiere la direccion de LR a PC -> Me permite salir de la funcion
 
 @-------------------------------------------- Observaciones ---------------------------------------------
 
 @	1) Caller: Se refiere a la funcion llamadora. -> Invoca la funcion.
-@   2) Callee: Se refiere a la funcion llamada.   -> Definicion de funcion.
+@	2) Callee: Se refiere a la funcion llamada.   -> Definicion de funcion.
 @	3) Recordar que R0-R3 son registros no preservados.
 @	4) Se utiliza BL, porque nos guarda el LR y nos permite retornar de la funcion al programa principal
 
