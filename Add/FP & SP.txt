@@ -1,0 +1,36 @@
+-------------------------------- Diferencia entre FP(frame pointer) y SP(stack pointer) -------------------------------
+
+El FP se usa como puntero base para las variables locales en la pila. 
+Aunque SP varía según, las llamadas a funciones de una función, FP tiene un valor fijo. 
+La relación entre el SP y el FP es simplemente una diferencia de offsets(Desplazamientos/Compensaciones) para la pila.
+Para un compilador inteligente, el FP podría no ser necesario porque podría realizarse ajustando los offsets para el SP. 
+------------------------------------------------------------------------------------------------------------------------
+El puntero de la pila siempre apunta a la parte superior (o inferior, si lo prefiere) de la pila. 
+El puntero del marco siempre apunta al marco. Las operaciones de apilamiento (p. Ej., Push, pop, call) no modifican el marco
+(en un sistema operativo adecuado) ni el puntero del marco (nunca).
+-----------------------------------------------------------------------------------------------------------------------------------------
+El puntero de pila (SP) es una característica de hardware de casi todos los procesadores actuales. Como mínimo, el SP apunta al 
+final actual de una cola que contiene las direcciones de retorno de todas las llamadas realizadas hasta el momento. 
+Cuando se realiza una llamada, la dirección de retorno se inserta en la pila; Al salir de la función llamada, la dirección de 
+retorno se saca de la pila. 
+
+El puntero de cuadro (FP) es una función de programación opcional  utilizada por algunos lenguajes de programación en algunos procesadores. 
+No todos los procesadores tienen los recursos de hardware para implementar un puntero de trama y algunas implementaciones no quieren tener
+la sobrecarga adicional de mantener un puntero de trama.
+
+Un FP, si se usa, apunta a un punto fijo en la pila "usuario" y apunta a una ubicación en la pila donde se encuentran los argumentos 
+y las variables locales para una función llamada. 
+Este puntero se establece al ingresar a una función y permanece constante durante la ejecución de la función llamada. 
+Por lo tanto, los valores pueden insertarse en la pila del usuario y extraerse de ella dentro de la función sin afectar los desplazamientos 
+del FP. 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Mas Info con grafico en: https://chortle.ccsu.edu/AssemblyTutorial/Chapter-28/ass28_4.html
+
+Mi opinion:
+EL SP apunta al Top de la pila(Por lo que varia), Utilizandolo para guardar espacion en la pila para agregar nuestros argumentos,variables,etc.
+El FP se mantiene en una pocicion fija de memoria y se utiliza para colocar argumentos,variables, etc. Y como no varia como el SP, es mas facil 
+colocarlos mediante desplazamiento(Offset).
+
+Entendiendo esto burdamente como si el SP fuera un malloc, donde me asigna el espacio para que ubique las variables,argunmentos,etc.
+y apunta siempre al TOP de la pila. y el FP como un puntero fijo que mediante offset(Desplazamiento) en la Pila, me ubica dichas variable,argumetos,etc.

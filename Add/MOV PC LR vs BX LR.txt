@@ -1,0 +1,14 @@
+----------------------------------------------- MOV PC LR vs BX LR ------------------------------------------------------
+
+Son del mismo tamaño y la misma velocidad (tres relojes más MAM estados de espera).
+He visto que gcc 3.4 usa MOV PC, LR mientras que gcc 4.0 usa BX LR. Supongo que realmente no importa cuál se use.
+
+En ARM7tdmi tienen la misma velocidad, pero BX lr es preferido por las CPU más nuevas y, por lo tanto, funciona más rápido.
+
+BX LR es la instrucción de devolución oficial definida por la EABI y es utilizado de forma predeterminada por todos los 
+compiladores conformes, incluso en CPU que no admiten BX (la tecnología de enlace luego traduce BX de vuelta a 
+MOV PC,(reg), según sea necesario).
+
+La razón es que el uso de BX hace que cualquier pieza de código interaccione trivialmente en la arquitectura 5 y 
+superior, mientras que MOV pc, lr no interfunciona. Por lo tanto, usarlo ahora evita tener que convertir el código 
+de ensamblaje en el futuro.

@@ -1,0 +1,21 @@
+--------------------------------------- Modos de Direccionamiento(Addressing Mode) ---------------------------------------------
+
+ARM proporciona direccionamiento Offset, Preindexado y Posindexado para permitir un código denso y eficiente para 
+accesos a arreglos y llamadas a funciones. 
+
+Ejemplos de cada modo de indexación. En cada caso, el registro base es R1 y el desplazamiento es R2.
+El desplazamiento se puede restar escribiendo –R2. 
+El desplazamiento también puede ser inmediato en el rango de 0–4095 que se puede sumar (por ejemplo, # 20) o restar (por ejemplo, # −20).
+
+Mode        ARM Assembly        Address         Base Register
+Offset      LDR R0, [R1, R2]    R1 + R2         Unchanged
+Pre-index   LDR R0, [R1, R2]!   R1 + R2         R1 = R1 + R2
+Post-index  LDR R0, [R1], R2       R1           R1 = R1 + R2
+
+
+>> El direccionamiento Offset calcula la dirección como el registro base ± el desplazamiento; el registro base no ha 
+   cambiado. 
+>> El direccionamiento Indexado previamente calcula la dirección como el registro base ± el desplazamiento y actualiza 
+   el registro base a esta nueva dirección. 
+>> El direccionamiento Post Indexado calcula la dirección solo como el registro base y luego, después de acceder a la 
+   memoria, el registro base se actualiza al registro base ± el desplazamiento. 
