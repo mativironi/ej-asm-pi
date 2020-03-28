@@ -42,3 +42,9 @@ En este repositorio se encuentran ejemplos **básicos** para aprender *ARM Assem
 19-[Directivas de Control,Operando y Macro](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo2/9-Directivas%20de%20Control%2COperando%20y%20Macro.s)
 
 20-[Funciones o Subrutinas](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/0-Funciones%20o%20Subrutinas.s)
+
+21-[Llamadas Multiples a Subrutinas](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/1-Llamadas%20Multiples%20a%20Subrutinas.s)
+
+22-[Funciones Leaf y Nonleaf](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/2-Funciones%20Leaf%20y%20Nonleaf.s)
+
+23-[Cadena de Caracteres 1](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/3-Cadena%20de%20Caracteres%201.s)
