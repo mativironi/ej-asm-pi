@@ -38,4 +38,5 @@ etiqueta: .word 99
 @	   Rn: es el registro en el que se basa la dirección de memoria.
 
 @ 			by Matias Vironi
-@			Github: https://github.com/mativironi/ej-asm-pi
+@			Github:   https://github.com/mativironi/ej-asm-pi
+@           LinkedIn: https://www.linkedin.com/in/matias-vironi/

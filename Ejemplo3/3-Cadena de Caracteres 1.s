@@ -21,11 +21,11 @@
 @ Sintaxis:
 @   LDR|STR {<size>}{<cond>} <Rd>, <addressing_mode>
 
-@--------------------------------------------------- Problema 1 ------------------------------------------------------
-@ Realizar un programa que dada una cadena con terminacion nula guardada en VECT, la pase a mayuscula, guardando 
-@ el resultado en el mismo vector VECT. 
-@ NOTA:la cadena de entrada solo contendra valores alfabeticos o espacio en blanco ('a' - 'z','A' - 'Z').
-@---------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------- Problema 1 ---------------------------------------------------
+ Realizar un programa que dada una cadena con terminacion nula guardada en VECT, la pase a mayuscula, guardando 
+ el resultado en el mismo vector VECT. 
+ NOTA:la cadena de entrada solo contendra valores alfabeticos o espacio en blanco ('a' - 'z','A' - 'Z').
+------------------------------------------------------------------------------------------------------------------*/
 
 .data					/* Seccion de Datos*/
 
@@ -66,6 +66,7 @@ fin: b fin
 @   3) El resultado de la cadena sera: " ABCDEFG HIJK  LMNOPQRSTUVWXYZ "
 
 @ 			by Matias Vironi
-@			Github: https://github.com/mativironi/ej-asm-pi
+@			Github:   https://github.com/mativironi/ej-asm-pi
+@           LinkedIn: https://www.linkedin.com/in/matias-vironi/
 
 

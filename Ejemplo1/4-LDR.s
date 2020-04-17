@@ -43,4 +43,5 @@ number: .word 5			@Se almacena el valor 5
 @	   Para cargar datos almacenados en la seccion de codigo se utiliza =(Direccion) y variable(Contenido)
 
 @ 			by Matias Vironi
-@			Github: https://github.com/mativironi/ej-asm-pi
+@			Github:   https://github.com/mativironi/ej-asm-pi
+@           LinkedIn: https://www.linkedin.com/in/matias-vironi/

@@ -41,4 +41,5 @@ fin: b fin
 @	5)BIC es una operacion AND con la diferencia de que niega el op2
 
 @ 			by Matias Vironi
-@			Github: https://github.com/mativironi/ej-asm-pi
+@			Github:   https://github.com/mativironi/ej-asm-pi
+@           LinkedIn: https://www.linkedin.com/in/matias-vironi/

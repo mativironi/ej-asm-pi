@@ -49,4 +49,5 @@ fin: b fin
 @	6) Por defecto las banderas que no figuran en el codigo estan en 0
 
 @ 			by Matias Vironi
-@			Github: https://github.com/mativironi/ej-asm-pi
+@			Github:   https://github.com/mativironi/ej-asm-pi
+@           LinkedIn: https://www.linkedin.com/in/matias-vironi/
