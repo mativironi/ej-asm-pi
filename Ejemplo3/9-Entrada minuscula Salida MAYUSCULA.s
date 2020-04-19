@@ -21,11 +21,11 @@ mayuscula:
 	BIC R0,R0, #32		    @ R0 = R0 AND NOT(100000)
 
 			            @ Ejemplo:
-                            @ a : 0110 0001
+                            		@ a : 0110 0001
 			                @   : 0010 0000
 			                @ A : 0100 0001		
 	
-    STR R0,[R1]             @ Almacena el contenido de R0 en R1
+    STR R0,[R1]             	@ Almacena el contenido de R0 en R1
 		
 escritura:
 	MOV R7,#4               @ Syscall Salida por la pantalla
@@ -45,4 +45,4 @@ end:
 
 @ 			by Matias Vironi
 @			Github:   https://github.com/mativironi/ej-asm-pi
-@                   LinkedIn: https://www.linkedin.com/in/matias-vironi/
+@                   	LinkedIn: https://www.linkedin.com/in/matias-vironi/

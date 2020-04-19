@@ -16,7 +16,7 @@ _start:
 _write:
 	MOV R7,#4           @ Syscall Salida por la pantalla
 	MOV R0,#1           @ Usa el monitor como flujo de salida
-	MOV R2,#5	        @ Longitud de cadena a escribir (5 caracteres)
+	MOV R2,#5	    @ Longitud de cadena a escribir (5 caracteres)
 	LDR R1,=mensaje     @ Imprimir cadena en mensaje
 	SVC 0
 		
@@ -25,7 +25,7 @@ end:
 	SVC 0
 		
 .data					/* Seccion de Datos*/
-mensaje:    .ascii " "  @ Podemos escribir 12 caracteres
+mensaje:    .ascii " "      @ Podemos escribir 12 caracteres
 
 
 @------------------------------------------------ Observaciones --------------------------------------------------
@@ -44,4 +44,4 @@ mensaje:    .ascii " "  @ Podemos escribir 12 caracteres
 
 @ 			by Matias Vironi
 @			Github:   https://github.com/mativironi/ej-asm-pi
-@                   LinkedIn: https://www.linkedin.com/in/matias-vironi/
+@                   	LinkedIn: https://www.linkedin.com/in/matias-vironi/

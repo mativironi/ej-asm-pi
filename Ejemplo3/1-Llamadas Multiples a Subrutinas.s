@@ -72,6 +72,6 @@ llamo:                                  @ Label llamo
 @       4) Utilizamos BX LR que se explica en el directorio Add.
 @       5) Tambien se emplean diferentes Modos de direccionamiento
 
-@ 	    by Matias Vironi
-@	    Github:   https://github.com/mativironi/ej-asm-pi
+@ 	   		by Matias Vironi
+@	    		Github:   https://github.com/mativironi/ej-asm-pi
 @                       LinkedIn: https://www.linkedin.com/in/matias-vironi/
