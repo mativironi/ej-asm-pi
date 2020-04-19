@@ -1,0 +1,28 @@
+----------------------------------------------------------- Informacion Util -----------------------------------------------------------------
+
+Existen muchas formas para compilar o depurar nuestros programas. 
+
+Estas son algunas de las opciones que utilice:
+
+Raspberry: Raspbian OS tiene paquetes instalados, que me permite compilar y depurar facilmente en ARM Assembly
+ARMSim# (debugger)(Mac OS X, Windows, Linux)                                    -->  https://webhome.cs.uvic.ca/~nigelh/ARMSim-V2.1/index.html
+OakSim  (debugger) (Online)                                                     -->  https://wunkolo.github.io/OakSim/
+Keil uVision (compiler and debugger) (De pago, pero tiene su version LITE)      -->  https://www.keil.com/download/
+Compilacion cruzada con Linux (Compiler and debugger)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Bibliografia:
+Digital Design and Computer Architecture            Autor: Harris and Harris
+ARM Assembly Language                               Autor: Williams Hohl, Christopher Hinds
+ARM Architecture Reference Manual                   https://static.docs.arm.com/ddi0406/c/DDI0406C_C_arm_architecture_reference_manual.pdf
+Practicas de ensamblador basadas en Raspberry pi    https://riuma.uma.es/xmlui/bitstream/handle/10630/10214/LibroDePracticas.pdf?sequence=1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Paginas web:
+
+https://www.newthinktank.com/2016/04/assembly-language-tutorial/
+http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0068b/index.html
+https://thinkingeek.com/arm-assembler-raspberry-pi/
+http://azeria-labs.com/

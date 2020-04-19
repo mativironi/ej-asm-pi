@@ -62,4 +62,4 @@ adr_var: .word var1		@Direccion a var1 guardada aqui
 
 @ 			by Matias Vironi
 @			Github:   https://github.com/mativironi/ej-asm-pi
-@           LinkedIn: https://www.linkedin.com/in/matias-vironi/
+@           		LinkedIn: https://www.linkedin.com/in/matias-vironi/
