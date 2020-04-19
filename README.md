@@ -54,3 +54,9 @@ En este repositorio se encuentran ejemplos **básicos** para aprender *ARM Assem
 25-[Compilacion](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/5-Compilacion.s)
 
 26-[Enlace y Compilacion](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/6-Enlace%20y%20Compilacion.s)
+
+27-[Salida de datos por pantalla](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/7-Salida%20de%20datos%20por%20pantalla.s)
+
+28-[Entrada y Salida de datos](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/8-Entrada%20y%20Salida%20de%20datos.s)
+
+29-[Entrada minuscula Salida MAYUSCULA](https://github.com/mativironi/ej-asm-pi/blob/master/Ejemplo3/9-Entrada%20minuscula%20Salida%20MAYUSCULA.s)
